@@ -8,22 +8,31 @@ export default function TechSupportLanding() {
     {
       name: "Sarah Johnson",
       role: "Líder Técnico Senior",
-      specialties: ["Seguridad de Redes", "Infraestructura en la Nube"],
+      specialties: ["Armado de Computadoras", "Optimización de Hardware"],
     },
     {
       name: "Michael Chen",
       role: "Administrador de Sistemas",
-      specialties: ["Gestión de Servidores", "Optimización de Bases de Datos"],
+      specialties: [
+        "Instalación de Componentes",
+        "Mantenimiento Preventivo de PCs",
+      ],
     },
     {
       name: "Emily Rodriguez",
       role: "Especialista en Ciberseguridad",
-      specialties: ["Análisis de Amenazas", "Auditorías de Seguridad"],
+      specialties: [
+        "Configuración de BIOS/UEFI",
+        "Pruebas de Rendimiento de Hardware",
+      ],
     },
     {
       name: "David Thompson",
       role: "Gerente de Mesa de Ayuda",
-      specialties: ["Soporte al Usuario", "Solución de Problemas de Hardware"],
+      specialties: [
+        "Diagnóstico de Fallas de Hardware",
+        "Actualización de Equipos",
+      ],
     },
   ];
 
