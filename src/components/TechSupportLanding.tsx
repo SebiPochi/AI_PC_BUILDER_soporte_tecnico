@@ -38,7 +38,7 @@ export default function TechSupportLanding() {
           </div>
           <nav className="hidden md:flex items-center space-x-6">
             <a href="#team" className="text-sm font-medium hover:text-primary">
-              Nuestro equipo
+              Nuestro Equipo
             </a>
             <a
               href="#services"
