@@ -6,29 +6,29 @@ import { Mail, Shield, Users } from "lucide-react";
 export default function TechSupportLanding() {
   const professionals = [
     {
-      name: "Sarah Johnson",
-      role: "Líder Técnico Senior",
+      name: "Diego Arcuri",
+      role: "Soporte Técnico",
       specialties: ["Armado de Computadoras", "Optimización de Hardware"],
     },
     {
-      name: "Michael Chen",
-      role: "Administrador de Sistemas",
+      name: "Martiniano Lopez",
+      role: "Infraestructura Técnica",
       specialties: [
         "Instalación de Componentes",
         "Mantenimiento Preventivo de PCs",
       ],
     },
     {
-      name: "Emily Rodriguez",
-      role: "Especialista en Ciberseguridad",
+      name: "Marcelo Arce Rojas",
+      role: "Integración de Hardware",
       specialties: [
         "Configuración de BIOS/UEFI",
         "Pruebas de Rendimiento de Hardware",
       ],
     },
     {
-      name: "David Thompson",
-      role: "Gerente de Mesa de Ayuda",
+      name: "Eduardo Gimenez",
+      role: "Coordinador de Soporte Técnico",
       specialties: [
         "Diagnóstico de Fallas de Hardware",
         "Actualización de Equipos",
@@ -62,7 +62,10 @@ export default function TechSupportLanding() {
               Contacto
             </a>
           </nav>
-          <Button>Ayuda</Button>
+
+          <Button>
+            <a href="#contact">Ayuda</a>
+          </Button>
         </div>
       </header>
 
@@ -168,9 +171,6 @@ export default function TechSupportLanding() {
           </div>
 
           <div className="max-w-md mx-auto text-center">
-            <div className="bg-primary/10 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
-              <Mail className="h-10 w-10 text-primary" />
-            </div>
             <h3 className="text-2xl font-semibold mb-3">Mandanos un mail.</h3>
             <p className="text-slate-300 text-xl mb-2">
               ortproyectofinal218@gmail.com
